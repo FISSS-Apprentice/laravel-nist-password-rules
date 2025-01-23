@@ -1,18 +1,12 @@
 {
-    "name": "langleyfoxall/laravel-nist-password-rules",
+    "name": "fisss-apprentice/laravel-nist-password-rules",
     "description": "🔒 Provides Laravel validation rules that follow the password related recommendations found in NIST Special Publication 800-63B.",
     "type": "library",
     "license": "LGPL-3.0-only",
-    "authors": [
-        {
-            "name": "Jordan Hall",
-            "email": "jordan@langleyfoxall.co.uk"
-        }
-    ],
     "require": {
         "php": ">=7.2",
         "laravel/framework": "^5.5||^6.0||^7.0||^8.0||^9.0||^10.0||^11.0",
-        "divineomega/laravel-password-exposed-validation-rule": "^4.0"
+        "fisss-apprentice/laravel-password-exposed-validation-rule": "^2.5"
     },
     "require-dev": {
         "fakerphp/faker": "^1.14.1|^1.9.1",
@@ -21,25 +15,25 @@
     },
     "autoload": {
         "psr-4": {
-            "LangleyFoxall\\LaravelNISTPasswordRules\\": "src/"
+            "FISSS-Apprentice\\LaravelNISTPasswordRules\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "LangleyFoxall\\LaravelNISTPasswordRules\\Tests\\": "tests/"
+            "FISSS-Apprentice\\LaravelNISTPasswordRules\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LangleyFoxall\\LaravelNISTPasswordRules\\ServiceProvider"
+                "FISSS-Apprentice\\LaravelNISTPasswordRules\\ServiceProvider"
             ]
         }
     },
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/langleyfoxall/laravel-password-exposed-validation-rule",
+            "url": "https://github.com/fisss-apprentice/laravel-password-exposed-validation-rule",
             "no-api": true
         },
         {
